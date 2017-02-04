@@ -1,48 +1,48 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'Open Sans';
-    src: local('Open Sans'), 
-	     local('OpenSans'), 
+    src: local('Open Sans'),
+	     local('OpenSans'),
 		 url('fonts/OpenSans-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'Open Sans';
-    src: local('Open Sans Italic'), 
-	     local('OpenSans-Italic'), 
+    src: local('Open Sans Italic'),
+	     local('OpenSans-Italic'),
 		 url('fonts/OpenSans-Italic.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
     font-family: 'Open Sans';
-    src: local('Open Sans Bold'), 
-	     local('OpenSans-Bold'), 
+    src: local('Open Sans Bold'),
+	     local('OpenSans-Bold'),
 		 url('fonts/OpenSans-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: 'Open Sans';
-    src: local('Open Sans Bold Italic'), 
-	     local('OpenSans-BoldItalic'), 
+    src: local('Open Sans Bold Italic'),
+	     local('OpenSans-BoldItalic'),
 		 url('fonts/OpenSans-BoldItalic.ttf') format('truetype');
     font-weight: 700;
     font-style: italic;
 }
 @font-face {
     font-family: 'Open Sans';
-    src: local('Open Sans Semi Bold'), 
-	     local('OpenSans-SemiBold'), 
+    src: local('Open Sans Semi Bold'),
+	     local('OpenSans-SemiBold'),
 		 url('fonts/OpenSans-Semibold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: 'Open Sans';
-    src: local('Open Sans Semi Bold Italic'), 
-	     local('OpenSans-SemiBoldItalic'), 
+    src: local('Open Sans Semi Bold Italic'),
+	     local('OpenSans-SemiBoldItalic'),
 		 url('fonts/OpenSans-SemiboldItalic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
@@ -50,19 +50,19 @@
 
 html, body,
 * html #wrapper {
-    height: 100%; 
-    min-width: 1240px;	
+    height: 100%;
+    min-width: 1240px;
 }
 html,
 body,
 input,
 select,
 textarea,
-button {      
-	color: #555;	
+button {
+	color: #555;
 	font: normal normal 400 15px/1.4 'Open Sans';
 	font-family: 'Open Sans', sans-serif;
-} 
+}
 .logo{
 	float: left;
 	height: auto;
@@ -103,13 +103,13 @@ button {
 					width: 100%;
 
 				}
-				
+
 				.menu-item a:hover {
 					color: #95cb2e;
 					text-decoration: none;
 					transition: all 0.7s ease 0s;
 				}
-				
+
 				.menu-item a:after {
 					content: '';
 					position: absolute;
@@ -118,14 +118,14 @@ button {
 					bottom: -0;
 					height: 5px;
 					background: #95cb2e;
-					transition: inherit;  
-					
+					transition: inherit;
+
 				}
 				.menu-item a:hover:after {
 					left: 20%;
 					right: 20%;
 				}
-				
+
 .top-icons{
 	float: right;
 }
@@ -178,7 +178,7 @@ button {
 }
 .rotator{
    position: relative;
-   background: rgba( 17, 116, 158, 1 ); 
+   background: rgba( 17, 116, 158, 1 );
    /*background: linear-gradient(to right, rgba( 17, 116, 158, 1 ), rgba( 17, 116, 158, 0.7 ));*/
 }
 .rotator-back{
@@ -247,14 +247,14 @@ button {
 	opacity: 0.5;
 	pointer-events: none;
 	z-index: 4;
-	transition: all 0.5s ease 0s; 
+	transition: all 0.5s ease 0s;
 }
 #image-rotator ul.tabs li.current:after{
 	opacity:0;
 }
 #image-rotator ul.tabs li:hover:after{
 	opacity:0;
-	transition: all 0.5s ease 0s; 
+	transition: all 0.5s ease 0s;
 }
 
 #image-rotator ul.tabs li a.title {
@@ -293,7 +293,7 @@ button {
 #image-rotator div.current {
   position: relative;
   z-index: 0;
-	transition: all 0.5s ease 0s; 
+	transition: all 0.5s ease 0s;
 }
 
 #image-rotator div.contain.previous { z-index: 1; }
@@ -336,7 +336,7 @@ button {
 	color: #fff;
 	text-transform: uppercase;
 	text-decoration: none;
-	transition: all 0.5s ease 0s; 
+	transition: all 0.5s ease 0s;
 	display: none;
 }
 #image-rotator .contain .read-more:hover{
@@ -350,7 +350,7 @@ button {
 	right: 0;
 	height: 0;
 	border: 2px solid #95cb2e;
-	transition: all 0.5s ease 0s;	
+	transition: all 0.5s ease 0s;
 }
 #image-rotator .contain .read-more:hover:after {
 	height: 100%;
@@ -367,7 +367,7 @@ button {
 	color: #fff;
 	text-transform: uppercase;
 	text-decoration: none;
-	transition: all 0.5s ease 0s; 
+	transition: all 0.5s ease 0s;
 	display: inline;
 }
 #image-rotator .contain img{
@@ -414,14 +414,14 @@ button {
 				font: italic 400 16px 'Open Sans';
 				margin-bottom: 40px;
 			}
-			
+
 			.about-company-button{
 				padding: 10px 15px 15px;
 				background: transparent;
 				font: normal 700 20px 'Open Sans';
 				text-transform: uppercase;
 				text-decoration: none;
-				transition: all 0.5s ease 0s; 
+				transition: all 0.5s ease 0s;
 				color: #3e4651;
 				text-decoration: none;
 				position: relative;
@@ -439,7 +439,7 @@ button {
 				right: 0;
 				height: 0;
 				border: 2px solid #95cb2e;
-				transition: all 0.5s ease 0s;	
+				transition: all 0.5s ease 0s;
 			}
 
 			.about-company-button:hover:after {
@@ -485,11 +485,11 @@ button {
 			width: 25%;
 			padding: 0 15px;
 			float:left;
-			
+
 		}
 			.adv-img1{
 				background: #95cb2e;
-				border-radius: 100%;
+				border-radius: 50%;
 				max-width: 170px;
 				max-height: 170px;
 				margin: 0 auto 30px;
@@ -498,11 +498,11 @@ button {
 				.adv-img1 img{
 					height: 100%;
 					width: 100%;
-					border-radius: 100%;
+					border-radius: 50%;
 				}
 			.adv-img2{
 				background: #95cb2e;
-				border-radius: 100%;
+				border-radius: 50%;
 				max-width: 170px;
 				max-height: 170px;
 				margin: 0 auto 30px;
@@ -511,11 +511,11 @@ button {
 				.adv-img1 img{
 					height: 100%;
 					width: 100%;
-					border-radius: 100%;
+					border-radius: 50%;
 				}
 			.adv-img3{
 				background: #95cb2e;
-				border-radius: 100%;
+				border-radius: 50%;
 				max-width: 170px;
 				max-height: 170px;
 				margin: 0 auto 30px;
@@ -524,11 +524,11 @@ button {
 				.adv-img1 img{
 					height: 100%;
 					width: 100%;
-					border-radius: 100%;
+					border-radius: 50%;
 				}
 			.adv-img4{
 				background: #95cb2e;
-				border-radius: 100%;
+				border-radius: 50%;
 				max-width: 170px;
 				max-height: 170px;
 				margin: 0 auto 30px;
@@ -537,7 +537,7 @@ button {
 				.adv-img1{
 					height: 100%;
 					width: 100%;
-					border-radius: 100%;
+					border-radius: 50%;
 				}
 			.adv-box .adv-title{
 				padding-bottom: 20px;
@@ -556,7 +556,7 @@ button {
 	min-height: 680px;
 	max-height: 800px;
 	background: url(img/front_page/contact-us.jpg) no-repeat 50% ;
-}	
+}
 	.cont-title{
 		text-align: center;
 	}
@@ -566,7 +566,7 @@ button {
 		margin: 50px 0 30px;
 		position: relative;
 		color: #fff;
-		
+
 	}
 	.cont-title h2:after{
 		content: '';
@@ -726,11 +726,11 @@ button {
 
 		}
 			.carousel-button-left a, .carousel-button-right a{
-			   width: 28px; 
-			   height: 45px; 
+			   width: 28px;
+			   height: 45px;
 			   position: relative;
-			   top: 45px; 
-			   cursor: pointer; 
+			   top: 45px;
+			   cursor: pointer;
 			   text-decoration:none;
 			   opacity: 0.7;
 			}
@@ -738,12 +738,12 @@ button {
 				opacity: 1;
 			}
 			.carousel-button-left a{
-			   float: left; 
-			   background: url(img/flags/left.png); 
+			   float: left;
+			   background: url(img/flags/left.png);
 			}
 			.carousel-button-right a{
 			   float: right;
-			   background: url(img/flags/right.png); 
+			   background: url(img/flags/right.png);
 			}
 				.carousel-items {
 				   width: 10000px;
@@ -766,8 +766,8 @@ button {
 							}
 /*Footer block*/
 .footer{
-	
-	background:#DEE2E6; 
+
+	background:#DEE2E6;
 	border-top: 3px solid #95cb2e;
 }
 	.copyright{
