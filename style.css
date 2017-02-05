@@ -1348,5 +1348,17 @@ button {
 			}
 
 
-
-}
+      @media (max-width: 750px) {
+      	.about-company .container{
+          width: 100%;
+        }
+        .about-company{
+          font: italic 400 19px 'Open Sans';
+        }
+        .about-company-right{
+          display: none;
+        }
+        .about-company-description{
+          width: 100%;
+        }
+      }
